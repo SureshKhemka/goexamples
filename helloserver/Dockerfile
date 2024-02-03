@@ -17,7 +17,7 @@ COPY . .
 RUN go build -o helloserver
 
 # Expose the port the app runs on
-EXPOSE 8082
+EXPOSE 80
 
 # Command to run the executable
 CMD ["./helloserver"]
